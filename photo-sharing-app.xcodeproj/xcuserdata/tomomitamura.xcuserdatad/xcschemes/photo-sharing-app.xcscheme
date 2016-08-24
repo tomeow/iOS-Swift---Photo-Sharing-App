@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3BF80C091D6D4F6E0052A78D"
+               BuildableName = "photo-sharing-app.app"
+               BlueprintName = "photo-sharing-app"
+               ReferencedContainer = "container:photo-sharing-app.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3BF80C201D6D4F6F0052A78D"
+               BuildableName = "photo-sharing-appTests.xctest"
+               BlueprintName = "photo-sharing-appTests"
+               ReferencedContainer = "container:photo-sharing-app.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3BF80C2B1D6D4F6F0052A78D"
+               BuildableName = "photo-sharing-appUITests.xctest"
+               BlueprintName = "photo-sharing-appUITests"
+               ReferencedContainer = "container:photo-sharing-app.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3BF80C091D6D4F6E0052A78D"
+            BuildableName = "photo-sharing-app.app"
+            BlueprintName = "photo-sharing-app"
+            ReferencedContainer = "container:photo-sharing-app.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3BF80C091D6D4F6E0052A78D"
+            BuildableName = "photo-sharing-app.app"
+            BlueprintName = "photo-sharing-app"
+            ReferencedContainer = "container:photo-sharing-app.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3BF80C091D6D4F6E0052A78D"
+            BuildableName = "photo-sharing-app.app"
+            BlueprintName = "photo-sharing-app"
+            ReferencedContainer = "container:photo-sharing-app.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
